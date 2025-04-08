@@ -23,7 +23,7 @@ subtitle                 : Welcome to my DEV blog.
 name                     : "Sunwoo Park"
 description              : "Sunwoo's Dev Blog."
 url                      : "https://psw1023.github.io"
-baseurl                  : "https://psw1023.github.io"
+baseurl                  : ""
 repository               : psw1023.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
