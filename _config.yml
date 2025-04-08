@@ -23,8 +23,8 @@ subtitle                 : Welcome to my DEV blog.
 name                     : "Sunwoo Park"
 description              : "Sunwoo's Dev Blog."
 url                      : "https://psw1023.github.io"
-baseurl                  : ""
-repository               : psw1023.github.io
+baseurl                  : "/categories"
+repository               : psw1023/psw1023.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : ""
@@ -114,9 +114,9 @@ analytics:
 # Site Author
 author:
   name             : "Sunwoo Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **AI** researcher who is interested in **Computer Vision**."
-  location         : "South Korean"
+  avatar           : "/assets/images/bio-photo.png"
+  bio              : "I am an **student** who is interested in **AI** and field of **Computer Vision**."
+  location         : "South Korea"
   email            : "psw1023@unist.ac.kr"
   links:
     - label: "GitHub"
@@ -306,7 +306,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       sidebar:

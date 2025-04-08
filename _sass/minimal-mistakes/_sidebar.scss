@@ -19,6 +19,7 @@
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
+    padding: 5px 30px;
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -126,6 +127,7 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
+  padding: 5px;
 
   @include breakpoint($large) {
     display: block;
@@ -134,13 +136,14 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    //max-width: 110px;
+    
+    //border-radius: 50%;
 
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
+    //@include breakpoint($large) {
+    //  padding: 5px;
+    //  border: 1px solid $border-color;
+    //}
   }
 }
 
@@ -180,11 +183,16 @@
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 20px;
   }
 }
 
 .author__urls-wrapper {
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  border-top: 1.2px solid #4d4d4d;
+  border-bottom: 1.2px solid #4d4d4d;
+  
   position: relative;
   display: table-cell;
   vertical-align: middle;

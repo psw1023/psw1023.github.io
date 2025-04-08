@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Tag  ::  Sunwoo’s Blog</title>
+<!-- begin _includes/seo.html --><title>Sunwoo’s Blog</title>
 <meta name="description" content="Sunwoo’s Dev Blog.">
 
 
@@ -21,7 +21,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sunwoo's Blog">
-<meta property="og:title" content="Posts by Tag">
+<meta property="og:title" content="Sunwoo’s Blog">
 <meta property="og:url" content="http://localhost:4000/tags/">
 
 
@@ -80,6 +80,8 @@
 
 <!-- end custom head snippets -->
 
+
+    <link rel="stylesheet" href="/assets/css/fonts.css">
   </head>
 
   <body class="layout--tags" dir="ltr">
@@ -98,10 +100,12 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
+        <!--
         <a class="site-title" href="/">
           Sunwoo's Blog
           <span class="site-subtitle">Welcome to my DEV blog.</span>
         </a>
+        -->
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
                 href="https://psw1023.github.io/"
@@ -144,8 +148,15 @@
   
 
 
+<link rel="stylesheet" href="/assets/css/fonts.css">
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
+  
+    <div class="author__avatar">
+      <a>
+        <img src="/assets/images/bio-photo.png" alt="Sunwoo Park" itemprop="image" class="u-photo">
+      </a>
+    </div>
   
 
   <div class="author__content">
@@ -153,8 +164,8 @@
       <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Sunwoo Park</a>
     </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>I am an <strong>AI</strong> researcher who is interested in <strong>Computer Vision</strong>.</p>
+      <div class="author__bio p-note text-justify" itemprop="description">
+        <p>I am an <strong>student</strong> who is interested in <strong>AI</strong> and field of <strong>Computer Vision</strong>.</p>
 
       </div>
     
@@ -165,7 +176,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korean</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">South Korea</span>
         </li>
       
 
@@ -250,7 +261,8 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Posts by Tag</h1>
+      <h1 id="page-title" class="page__title"></h1>
+      
     
     
 

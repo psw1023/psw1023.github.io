@@ -18,6 +18,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<link rel="stylesheet" href="/assets/css/hr.css">
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -34,6 +35,7 @@ layout: default
           <h1 id="page-title" class="page__title" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>
+          <hr class="single-posts-title-hr">
           {%- endif %}
           {% include page__meta.html %}
         </header>
@@ -60,9 +62,7 @@ layout: default
         {% include page__date.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
+      
     </div>
 
     {% if site.comments.provider and page.comments %}

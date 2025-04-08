@@ -1,17 +1,17 @@
 ---
-title:  "Camera Parameter (1)"
+title:  "TEST2"
 excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories: # 카테고리 설정
-  - Theory
+  - Paper Review
 
-permalink: /theory/camera-parameter-1/ # 포스트 URL
+permalink: /categories/paper-review/test2/ # 포스트 URL
 
 toc: true # 우측에 본문 목차 네비게이션 생성
 toc_sticky: true # 본문 목차 네비게이션 고정 여부
 
-date:   2025-04-07
-last_modified_at: 2025-04-07
+date:   2025-04-08
+last_modified_at: 2025-04-08
 ---
 
 안녕하세요.

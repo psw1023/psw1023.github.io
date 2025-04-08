@@ -1,0 +1,16 @@
+.nav__sub-title {
+    font-size: 0.8em;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.text-justify:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.category-index{
+    padding: 0 0 0 5px;
+}

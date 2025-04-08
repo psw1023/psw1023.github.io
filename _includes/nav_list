@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/assets/css/fonts.css">
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
@@ -14,9 +15,9 @@
           {% endif %}
 
           {% if nav.children != null %}
-          <ul>
+          <ul class="category-index">
             {% for child in nav.children %}
-              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active category-index"{% endif %}>{{ child.title }}</a></li>
             {% endfor %}
           </ul>
           {% endif %}

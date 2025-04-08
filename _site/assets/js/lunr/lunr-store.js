@@ -1,7 +1,13 @@
 var store = [{
-        "title": "Camera Parameter (1)",
+        "title": "TEST1",
         "excerpt":"안녕하세요.  ","categories": ["Theory"],
         "tags": [],
-        "url": "/theory/camera-parameter-1/",
+        "url": "/categories/theory/test1/",
+        "teaser": null
+      },{
+        "title": "TEST2",
+        "excerpt":"안녕하세요.  ","categories": ["Paper Review"],
+        "tags": [],
+        "url": "/categories/paper-review/test2/",
         "teaser": null
       }]

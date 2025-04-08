@@ -15,7 +15,7 @@ main:
 
 # sidebar navigation
 sidebar-category:
-  - title: "CSE/AI/etc."
+  - title: "STUDY"
     children:
     - title: "Theory"
       url: /categories/theory/
