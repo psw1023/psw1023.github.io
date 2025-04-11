@@ -1,0 +1,30 @@
+---
+title:  "[CS231n] 1.Image Classfication"
+excerpt: "본문의 주요 내용을 여기에 입력하세요"
+
+categories: # 카테고리 설정
+  - Theory
+
+permalink: /categories/theory/cs231n-1/ # 포스트 URL
+
+toc: true # 우측에 본문 목차 네비게이션 생성
+toc_sticky: true # 본문 목차 네비게이션 고정 여부
+
+date:   2025-04-11
+last_modified_at: 2025-04-11
+---
+
+
+>* 본 글은 Stanford University에서 2017년에 진행했던 cs231n 강의를 듣고 내용을 정리한 것입니다.<br>
+>* 이번 글에서는 [**`1강`**](https://youtu.be/vT1JzLTH4G4?si=QEGiAOCUhSCkH3qx "Youtube: cs231n-1")과 [**`2강`**](https://youtu.be/OoUX-nOEjG0?si=jtKw1M-jjkaYBX3l "Youtube: cs231n-2")의 내용을 요약 및 정리하였습니다.<br>
+><span style="font-size: 12px; color:rgb(56, 56, 56)">
+&emsp; \* **`block`** 처리된 문구를 클릭하면 해당 회차의 유튜브 영상으로 바로 갑니다.</span><br>
+>* 강의가 2017년도 기준으로 제작되어 가끔씩 요즘 CV분야의 유행과는 괴리감드는 내용이 있을 수 있으나, 수강 목적이 글쓴이가 기초를 다지기 위함이라 그 점 고려해주시면 감사하겠습니다.<br>
+>* 틀린 내용이 있다면 댓글을 통해 지적해주시면 감사하겠습니다.<br>
+
+
+***
+
+# ImageNet: Image Classfication Challenge
+
+![Image](https://github.com/user-attachments/assets/2152aba2-0139-4b57-bf23-2a25fe9626d4)

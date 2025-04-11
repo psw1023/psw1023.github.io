@@ -10,30 +10,36 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Categories  ::  Sunwoo’s Blog</title>
-<meta name="description" content="Sunwoo’s Dev Blog.">
+<!-- begin _includes/seo.html --><title>[CS231n] 1.Image Classfication  ::  Sunwoo’s Blog</title>
+<meta name="description" content="본문의 주요 내용을 여기에 입력하세요">
 
 
   <meta name="author" content="Sunwoo Park">
   
+  <meta property="article:author" content="Sunwoo Park">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Sunwoo's Blog">
-<meta property="og:title" content="Categories">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="[CS231n] 1.Image Classfication">
+<meta property="og:url" content="http://localhost:4000/categories/theory/cs231n-1/">
 
 
-  <meta property="og:description" content="Sunwoo’s Dev Blog.">
-
-
-
+  <meta property="og:description" content="본문의 주요 내용을 여기에 입력하세요">
 
 
 
 
 
+
+
+  <meta property="article:published_time" content="2025-04-11T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2025-04-11T00:00:00+09:00">
 
 
 
@@ -42,7 +48,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/categories/theory/cs231n-1/">
 
 
 
@@ -100,7 +106,7 @@
     <link rel="stylesheet" href="/assets/css/fonts.css">
   </head>
 
-  <body class="layout--categories" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -158,6 +164,9 @@
 
 
 
+
+
+<link rel="stylesheet" href="/assets/css/hr.css">
 <div id="main" role="main">
   
   <div class="sidebar sticky">
@@ -313,67 +322,21 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Categories</h1>
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[CS231n] 1.Image Classfication">
+    <meta itemprop="description" content="본문의 주요 내용을 여기에 입력하세요">
+    <meta itemprop="datePublished" content="2025-04-11T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2025-04-11T00:00:00+09:00">
+
+    <div class="page__inner-wrap">
       
-    
-    
-
-
-
-
-
-<ul class="taxonomy__index">
-  
-    
-      
-        <li>
-          <a href="theory">
-            <strong>Theory</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-    
-  
-    
-      
-    
-      
-        <li>
-          <a href="paper-review">
-            <strong>Paper Review</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
-</ul>
-
-
-
-  
-    
-      <section id="theory" class="taxonomy__section">
-        <h2 class="archive__subtitle">Theory</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/categories/theory/cs231n-1/" rel="permalink">[CS231n] 1.Image Classfication
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/categories/theory/cs231n-1/" itemprop="url">[CS231n] 1.Image Classfication
 </a>
-      
-    </h2>
-    
+          </h1>
+          <hr class="single-posts-title-hr">
+          
 
   <!--
   <p class="page__meta">
@@ -399,78 +362,92 @@
 
 
 
-    <p class="archive__item-excerpt" itemprop="description">본문의 주요 내용을 여기에 입력하세요
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/categories/theory/test1/" rel="permalink">TEST1
-</a>
-      
-    </h2>
-    
-
-  <!--
-  <p class="page__meta">
-    
-
-    
-
-    
-      
+        </header>
       
 
-      
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+      <section class="page__content" itemprop="text">
         
-          less than 1 minute read
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#imagenet-image-classfication-challenge">ImageNet: Image Classfication Challenge</a></li></ul>
+            </nav>
+          </aside>
         
-      </span>
-      
-    
-  </p>
-  -->
+        <blockquote>
+  <ul>
+    <li>본 글은 Stanford University에서 2017년에 진행했던 cs231n 강의를 듣고 내용을 정리한 것입니다.<br /></li>
+    <li>이번 글에서는 <a href="https://youtu.be/vT1JzLTH4G4?si=QEGiAOCUhSCkH3qx" title="Youtube: cs231n-1"><strong><code class="language-plaintext highlighter-rouge">1강</code></strong></a>과 <a href="https://youtu.be/OoUX-nOEjG0?si=jtKw1M-jjkaYBX3l" title="Youtube: cs231n-2"><strong><code class="language-plaintext highlighter-rouge">2강</code></strong></a>의 내용을 요약 및 정리하였습니다.<br />
+<span style="font-size: 12px; color:rgb(56, 56, 56)">
+  * <strong><code class="language-plaintext highlighter-rouge">block</code></strong> 처리된 문구를 클릭하면 해당 회차의 유튜브 영상으로 바로 갑니다.</span><br /></li>
+    <li>강의가 2017년도 기준으로 제작되어 가끔씩 요즘 CV분야의 유행과는 괴리감드는 내용이 있을 수 있으나, 수강 목적이 글쓴이가 기초를 다지기 위함이라 그 점 고려해주시면 감사하겠습니다.<br /></li>
+    <li>틀린 내용이 있다면 댓글을 통해 지적해주시면 감사하겠습니다.<br /></li>
+  </ul>
+</blockquote>
 
+<hr />
 
+<h1 id="imagenet-image-classfication-challenge">ImageNet: Image Classfication Challenge</h1>
 
-    <p class="archive__item-excerpt" itemprop="description">본문의 주요 내용을 여기에 입력하세요
-</p>
-  </article>
-</div>
+<p><img src="https://github.com/user-attachments/assets/2152aba2-0139-4b57-bf23-2a25fe9626d4" alt="Image" /></p>
 
-          
-        </div>
         
       </section>
-    
-  
-    
-  
 
-  
-    
-  
-    
-      <section id="paper-review" class="taxonomy__section">
-        <h2 class="archive__subtitle">Paper Review</h2>
-        <div class="entries-list">
-          
-            
+      <footer class="page__meta">
+        
+        
 
 
+  
 
-<div class="list__item">
+
+  
+  
+  <link rel="stylesheet" href="/assets/css/category-list.css">
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/theory" class="post_category_tags p-category" rel="tag">Theory</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-04-11">April 11, 2025</time></p>
+
+      </footer>
+
+      
+    </div>
+
+    
+      
+        <p>
+          Comments are configured with provider: <strong>utterances</strong>,
+          but are disabled in non-production environments.
+        </p>
+      
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You may also enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -510,16 +487,58 @@
   </article>
 </div>
 
-          
-        </div>
-        
-      </section>
     
-  
+      
+      
 
 
 
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/categories/theory/test1/" rel="permalink">TEST1
+</a>
+      
+    </h2>
+    
+
+  <!--
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+      
+    
+  </p>
+  -->
+
+
+
+    <p class="archive__item-excerpt" itemprop="description">본문의 주요 내용을 여기에 입력하세요
+</p>
+  </article>
+</div>
+
+    
   </div>
+</div>
+
+  
+  
 </div>
 
       
@@ -572,6 +591,31 @@
 
 
 
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'psw1023/psw1023.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
 
 
 
