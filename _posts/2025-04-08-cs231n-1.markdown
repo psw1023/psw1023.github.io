@@ -1,5 +1,6 @@
 ---
 title:  "[cs231n] 1.Image Classfication"
+excerpt: "cs231n (1)"
 
 categories: # 카테고리 설정
   - Theory
