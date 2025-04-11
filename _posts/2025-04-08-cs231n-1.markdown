@@ -1,6 +1,5 @@
 ---
-title:  "[CS231n] 1.Image Classfication"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+title:  "[cs231n] 1.Image Classfication"
 
 categories: # 카테고리 설정
   - Theory
