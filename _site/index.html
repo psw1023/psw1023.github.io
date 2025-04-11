@@ -269,46 +269,58 @@
 </div>
 
   
-    
-      
-      
-      
-      
-    
-    
-      <link rel="stylesheet" href="/assets/css/fonts.css">
-<nav class="nav__list">
+
   
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">Toggle menu</label>
-  <ul class="nav__items">
-    
-      
-      
-        <li>
-          
-            <span class="nav__sub-title">STUDY</span>
-          
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-size: 12px; font-family:'Cafe24Oneprettynight';">Total Posts (</style><span style="font-size: 12px; font-family:'Coming Soon';">1</style><span style="font-size: 12px; font-family:'Cafe24Oneprettynight';">)</style> 
+      </li>
+      <li>
+        <!-- span 태그로 카테고리들을 크게 분류 ex) C/C++/C# -->
+        <span class="nav__sub-title">STUDY</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                        <li><a href="/categories/theory" class="">Theory (1)</a></li>
+                    
+                
+            </ul>
 
-          
-          <ul class="category-index">
-            
-              <li><a href="/categories/theory/">Theory</a></li>
-            
-              <li><a href="/categories/paper-review/">Paper Review</a></li>
-            
-          </ul>
-          
-        </li>
-      
-    
+        <!-- 추가하려면 주석 지우고 작성성
+        <span class="nav__sub-title">Coding Test</span>
+            <ul>
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+            </ul>
+        -->
+      </li>
   </ul>
 </nav>
-
-    
   
-  </div>
 
+  </div>
 
 
   <div class="archive">

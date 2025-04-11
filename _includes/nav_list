@@ -1,3 +1,6 @@
+<!-- Original nav bar backup. -->
+
+<!--
 <link rel="stylesheet" href="/assets/css/fonts.css">
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
@@ -26,3 +29,4 @@
     {% endfor %}
   </ul>
 </nav>
+-->

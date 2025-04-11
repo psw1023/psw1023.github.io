@@ -10,6 +10,8 @@ permalink: /categories/theory/cs231n-1/ # 포스트 URL
 toc: true # 우측에 본문 목차 네비게이션 생성
 toc_sticky: true # 본문 목차 네비게이션 고정 여부
 
+sidebar_main: true
+
 date:   2025-04-11
 last_modified_at: 2025-04-11
 ---
